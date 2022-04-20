@@ -1,0 +1,14 @@
+.datetime {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.datetime > h6 {
+  font-size: x-large;
+  margin-bottom: 0 !important;
+}
+
+.datetime > span {
+  color: #5d7cd3;
+}

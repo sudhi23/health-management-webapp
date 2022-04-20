@@ -1,0 +1,78 @@
+.bodyleft {
+  height: 100%;
+  padding: 10px;
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyleft__top {
+  flex: 0.45;
+  display: flex;
+}
+
+.bodyleft__topleft {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+
+.bodyleft__topright {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.bodyleft__content {
+  flex: 0.3;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px #dddddd;
+}
+
+.bodyleft__bottom {
+  flex: 0.55;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bodyleft__bottomtop {
+  flex: 0.3;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px #dddddd;
+}
+
+.bodyleft__bottombottom {
+  flex: 0.7;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px #dddddd;
+}
+
+.bodyleft__memberInfo {
+  flex: 0.1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .bodyleft {
+    flex: 1;
+    height: 80vh;
+    width: 90%;
+  }
+}

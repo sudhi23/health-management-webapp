@@ -1,0 +1,144 @@
+.body {
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8ff;
+}
+
+.body__right {
+  height: 100%;
+  padding: 10px;
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body__chart {
+  flex: 0.45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px #dddddd;
+}
+
+.body__chartInfo {
+  flex: 0.1;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body__chartContent {
+  flex: 0.9;
+  width: 100%;
+  max-width: 600px;
+}
+
+.body__rightBottom {
+  flex: 0.55;
+  margin-top: 20px;
+  display: flex;
+}
+
+.body__tasks {
+  flex: 0.45;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px #dddddd;
+}
+
+.body__tasksInfo {
+  flex: 0.1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  padding-top: 10px;
+}
+
+.body__tasksArc {
+  flex: 0.6;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+.body__tasksDetail {
+  flex: 0.1;
+  width: 100%;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+.body__tasksDetail > h6 {
+  margin-bottom: 0;
+}
+
+.body__tasksDetail > span {
+  line-height: 1.2;
+}
+
+.body__calendar {
+  margin-left: 20px;
+  flex: 0.55;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 3px #dddddd;
+}
+
+.body__calendarInfo {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.body__calendarContent {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body__icon {
+  background-color: #3f51b5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  padding: 0.5vh;
+  border-radius: 50%;
+}
+
+.body__icon > .MuiSvgIcon-root {
+}
+
+@media (max-width: 800px) {
+  .body {
+    flex-direction: column;
+  }
+
+  .body__right {
+    flex: 1;
+    height: 70vh;
+    width: 90%;
+  }
+}

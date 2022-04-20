@@ -1,0 +1,26 @@
+.infobar {
+  flex: 0.08;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infobar__left {
+  flex: 0.08;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px solid lightsteelblue;
+}
+
+.infobar__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.infobar__right > * {
+  margin: 0 10px;
+}

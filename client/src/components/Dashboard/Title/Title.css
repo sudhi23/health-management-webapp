@@ -1,0 +1,46 @@
+.title {
+  flex: 0.07;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c426b;
+}
+
+.title__left {
+  color: #ffe;
+  margin-left: 20px;
+  font-size: x-large;
+  flex: 0.7;
+}
+
+.title__right {
+  color: #ffe;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.title__weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title__weather > * {
+  margin-left: 10px;
+}
+
+.title__weatherIcon {
+  height: 2rem;
+  background-color: #f89e9e;
+  border-radius: 50%;
+}
+
+.title__weatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
